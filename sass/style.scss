@@ -536,7 +536,7 @@ $textColor:#393d47;
 .projects_section{
     grid-area: projects_section;
     margin-top: 30px;
-    height: 750px;
+    height: 100%;
     font-family: 'Nunito Sans', sans-serif;
     border-bottom: 1px solid #e6e6e6;
     // border: $borderSettings;
@@ -628,6 +628,30 @@ $textColor:#393d47;
         // PROJECT BOX 4
         .project_box4{
             grid-area: project_box4;
+        }
+    }
+    .github_section{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 20px;
+        text-align: center;
+        .github_btn{
+            background: none;
+            border: none;
+            outline: none;
+            text-decoration: none;
+            font-weight: 600;
+            background: #fff;
+            color: #57EEA1;
+            border-radius: 23px;
+            padding: 0.75rem 1.55rem;
+            border: 2px solid #57EEA1;
+            transition: all 0.4s;
+            &:hover{
+                border-color: #57EEA1;
+                background: #57EEA1;
+                color: #fff;
+            }
         }
     }
 }
