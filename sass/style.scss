@@ -258,7 +258,7 @@ $textColor:#393d47;
 // ############################## SKILLS SECTION ##############################
 .skills_section{
     grid-area: skills_section;
-    height: 700px;
+    height: 130%;
     margin-top: 30px;
     font-family: 'Nunito Sans', sans-serif;
 
@@ -283,6 +283,7 @@ $textColor:#393d47;
         display: grid;
         grid-template-areas: 'html_box css_box sass_box js_box'
         'responsive_box node_box git_box python_box'
+        'c_sharp . . .'
         ;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-gap: 20px;
@@ -353,6 +354,10 @@ $textColor:#393d47;
         // PYTHON BOX
         .python_box{
             grid-area: python_box;
+        }
+        // C-SHARP BOX
+        .c_sharp{
+            grid-area: c_sharp;
         }
     }
 }

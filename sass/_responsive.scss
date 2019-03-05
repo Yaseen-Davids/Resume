@@ -189,7 +189,7 @@ and (max-width:900px){
     // ############## SKILLS SECTION ##############
     .skills_section{
         grid-area: skills_section;
-        height: 750px;
+        height: 100%;
         margin-top: 30px;
         // border: $borderSettings;
 
@@ -214,6 +214,7 @@ and (max-width:900px){
             'sass_box js_box'
             'responsive_box node_box'
             'git_box python_box'
+            'c_sharp .'
             ;
             grid-template-columns: 1fr 1fr;
             grid-gap: 20px;
@@ -1246,7 +1247,7 @@ and (max-width: 1279px){
     // ############## SKILLS SECTION ##############
     .skills_section{
         grid-area: skills_section;
-        height: 450px;
+        height: 100%;
         margin-top: 30px;
         // border: $borderSettings;
 
@@ -1269,6 +1270,7 @@ and (max-width: 1279px){
             display: grid;
             grid-template-areas: 'html_box css_box sass_box js_box'
             'responsive_box node_box git_box python_box'
+            'c_sharp . . .'
             ;
             grid-template-columns: 1fr 1fr 1fr 1fr;
             grid-gap: 20px;
@@ -1303,7 +1305,7 @@ and (max-width: 1279px){
     .exp_section{
         grid-area: exp_section;
         margin-top: 20px;
-        height: 750px;
+        height: 100%;
         // border: $borderSettings;
 
         // EXPERIENCE BOX 1
@@ -1725,7 +1727,7 @@ and (max-width: 1600px){
     // ############## SKILLS SECTION ##############
     .skills_section{
         grid-area: skills_section;
-        height: 450px;
+        height: 100%;
         margin-top: 30px;
         // border: $borderSettings;
 
@@ -1748,6 +1750,7 @@ and (max-width: 1600px){
             display: grid;
             grid-template-areas: 'html_box css_box sass_box js_box'
             'responsive_box node_box git_box python_box'
+            'c_sharp . . .'
             ;
             grid-template-columns: 1fr 1fr 1fr 1fr;
             grid-gap: 20px;
