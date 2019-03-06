@@ -1308,6 +1308,16 @@ and (max-width: 1279px){
         height: 100%;
         // border: $borderSettings;
 
+        // EXPERIENCE BOX - PEACH PAYMENTS
+        .exp_box_peach{
+            .exp_img_peach{
+                grid-area: exp_img_peach;
+                img{
+                    margin-left: 0px;
+                }
+            }
+        }
+
         // EXPERIENCE BOX 1
         .exp_box_1{
             margin-top: 40px;
