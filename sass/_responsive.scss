@@ -430,7 +430,10 @@ and (max-width:900px){
             // border: $borderSettings;
             margin-top: 20px;
             display: grid;
-            grid-template-areas: 'project_box1'
+            grid-template-areas:
+            'project_box6'
+            'project_box5'
+            'project_box1'
             'project_box2'
             'project_box3'
             'project_box4'
@@ -1063,7 +1066,9 @@ and (max-width: 900px){
             // border: $borderSettings;
             margin-top: 20px;
             display: grid;
-            grid-template-areas: 'project_box1 project_box2'
+            grid-template-areas: 
+            'project_box6 project_box5'
+            'project_box1 project_box2'
             'project_box3 project_box4'
             ;
             grid-template-columns: 1fr 1fr;
@@ -1476,7 +1481,9 @@ and (max-width: 1279px){
             // border: $borderSettings;
             margin-top: 20px;
             display: grid;
-            grid-template-areas: 'project_box1 project_box2'
+            grid-template-areas: 
+            'project_box6 project_box5'
+            'project_box1 project_box2'
             'project_box3 project_box4'
             ;
             grid-template-columns: 1fr 1fr;

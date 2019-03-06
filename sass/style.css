@@ -659,7 +659,7 @@
   margin-top: 50px;
   display: -ms-grid;
   display: grid;
-      grid-template-areas: 'project_box1 project_box2' 'project_box3 project_box4';
+      grid-template-areas: 'project_box6 project_box5' 'project_box1 project_box2' 'project_box3 project_box4';
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
   grid-gap: 30px;
@@ -720,26 +720,38 @@
   width: 100%;
 }
 
-.projects_section .project_main .project_box1 {
+.projects_section .project_main .project_box6 {
   -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: project_box6;
+}
+
+.projects_section .project_main .project_box5 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: project_box5;
+}
+
+.projects_section .project_main .project_box1 {
+  -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: project_box1;
 }
 
 .projects_section .project_main .project_box2 {
-  -ms-grid-row: 1;
+  -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: project_box2;
 }
 
 .projects_section .project_main .project_box3 {
-  -ms-grid-row: 2;
+  -ms-grid-row: 3;
   -ms-grid-column: 1;
   grid-area: project_box3;
 }
 
 .projects_section .project_main .project_box4 {
-  -ms-grid-row: 2;
+  -ms-grid-row: 3;
   -ms-grid-column: 2;
   grid-area: project_box4;
 }
@@ -1288,7 +1300,7 @@
     margin-top: 20px;
     display: -ms-grid;
     display: grid;
-        grid-template-areas: 'project_box1' 'project_box2' 'project_box3' 'project_box4';
+        grid-template-areas: 'project_box6' 'project_box5' 'project_box1' 'project_box2' 'project_box3' 'project_box4';
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     grid-gap: 10px;
@@ -1792,7 +1804,7 @@
     margin-top: 20px;
     display: -ms-grid;
     display: grid;
-        grid-template-areas: 'project_box1 project_box2' 'project_box3 project_box4';
+        grid-template-areas: 'project_box6 project_box5' 'project_box1 project_box2' 'project_box3 project_box4';
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
@@ -2135,7 +2147,7 @@
     margin-top: 20px;
     display: -ms-grid;
     display: grid;
-        grid-template-areas: 'project_box1 project_box2' 'project_box3 project_box4';
+        grid-template-areas: 'project_box6 project_box5' 'project_box1 project_box2' 'project_box3 project_box4';
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
     grid-gap: 10px;

@@ -564,7 +564,9 @@ $textColor:#393d47;
     .project_main{
         margin-top: 50px;
         display: grid;
-        grid-template-areas: 'project_box1 project_box2'
+        grid-template-areas: 
+        'project_box6 project_box5'
+        'project_box1 project_box2'
         'project_box3 project_box4'
         ;
         grid-template-columns: 1fr 1fr;
@@ -617,6 +619,12 @@ $textColor:#393d47;
                 height: 100%;
                 width: 100%;
             }
+        }
+        .project_box6{
+            grid-area: project_box6;
+        }
+        .project_box5{
+            grid-area: project_box5;
         }
         // PROJECT BOX 1
         .project_box1{
