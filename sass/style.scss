@@ -381,7 +381,7 @@ $textColor:#393d47;
     // EXPERIENCE BOX - PEACH PAYMENTS
     .exp_box_peach{
         margin-top: 40px;
-        height: 200px;
+        height: 110%;
         display: grid;
         grid-template-areas: 'exp_img_peach exp_text_peach'
         ;
@@ -393,8 +393,8 @@ $textColor:#393d47;
         .exp_img_peach{
             grid-area: exp_img_peach;
             img{
-                margin-left: 50px;
-                height: 60px;
+                // margin-left: 50px;
+                height: 55px;
                 width: 200px;
             }
         }
