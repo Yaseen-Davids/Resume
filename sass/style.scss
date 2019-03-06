@@ -258,8 +258,9 @@ $textColor:#393d47;
 // ############################## SKILLS SECTION ##############################
 .skills_section{
     grid-area: skills_section;
-    height: 130%;
+    height: 100%;
     margin-top: 30px;
+    margin-bottom:30px;
     font-family: 'Nunito Sans', sans-serif;
 
     // SKILLS SECTION HEADER
