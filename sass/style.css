@@ -376,7 +376,7 @@
 
 .exp_section .exp_box_peach {
   margin-top: 40px;
-  height: 110%;
+  height: 100%;
   display: -ms-grid;
   display: grid;
       grid-template-areas: 'exp_img_peach exp_text_peach';
