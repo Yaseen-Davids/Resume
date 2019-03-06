@@ -242,7 +242,7 @@
   margin-top: 80px;
   display: -ms-grid;
   display: grid;
-      grid-template-areas: 'html_box css_box sass_box js_box' 'responsive_box node_box git_box python_box' 'c_sharp . . .';
+      grid-template-areas: 'html_box css_box sass_box js_box' 'responsive_box node_box git_box python_box' 'c_sharp xamarin . .';
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 20px;
@@ -341,6 +341,12 @@
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   grid-area: c_sharp;
+}
+
+.skills_section .skills_boxes .xamarin {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: xamarin;
 }
 
 .exp_section {
@@ -656,7 +662,7 @@
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
   grid-gap: 30px;
-  height: 550px;
+  height: 100%;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -735,34 +741,6 @@
   -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: project_box4;
-}
-
-.projects_section .github_section {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 20px;
-  text-align: center;
-}
-
-.projects_section .github_section .github_btn {
-  background: none;
-  border: none;
-  outline: none;
-  text-decoration: none;
-  font-weight: 600;
-  background: #fff;
-  color: #57EEA1;
-  border-radius: 23px;
-  padding: 0.75rem 1.55rem;
-  border: 2px solid #57EEA1;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
-}
-
-.projects_section .github_section .github_btn:hover {
-  border-color: #57EEA1;
-  background: #57EEA1;
-  color: #fff;
 }
 
 .about_sect {
@@ -1068,7 +1046,7 @@
     margin-top: 20px;
     display: -ms-grid;
     display: grid;
-        grid-template-areas: 'html_box css_box' 'sass_box js_box' 'responsive_box node_box' 'git_box python_box' 'c_sharp .';
+        grid-template-areas: 'html_box css_box' 'sass_box js_box' 'responsive_box node_box' 'git_box python_box' 'c_sharp xamarin';
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
@@ -1313,7 +1291,7 @@
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     grid-gap: 10px;
-    height: 1050px;
+    height: 100%;
   }
   .projects_section .project_main .proj_box {
     border-radius: 6px;
@@ -1620,7 +1598,7 @@
   }
 }
 
-@media (min-width: 701px) and (max-width: 800px) {
+@media (min-width: 701px) and (max-width: 900px) {
   .margin-wrapper {
     margin-left: 50px;
     margin-right: 50px;
@@ -1941,7 +1919,7 @@
     margin-top: 20px;
     display: -ms-grid;
     display: grid;
-        grid-template-areas: 'html_box css_box sass_box js_box' 'responsive_box node_box git_box python_box' 'c_sharp . . .';
+        grid-template-areas: 'html_box css_box sass_box js_box' 'responsive_box node_box git_box python_box' 'c_sharp xamarin . .';
     -ms-grid-columns: 1fr 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
@@ -2131,7 +2109,7 @@
     -ms-grid-column: 1;
     grid-area: projects_section;
     margin-top: 30px;
-    height: 650px;
+    height: 100%;
   }
   .projects_section .project_header h2 {
     text-align: center;
@@ -2152,7 +2130,7 @@
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
-    height: 500px;
+    height: 100%;
   }
   .projects_section .project_main .proj_box {
     border-radius: 6px;
@@ -2390,7 +2368,7 @@
     margin-top: 20px;
     display: -ms-grid;
     display: grid;
-        grid-template-areas: 'html_box css_box sass_box js_box' 'responsive_box node_box git_box python_box' 'c_sharp . . .';
+        grid-template-areas: 'html_box css_box sass_box js_box' 'responsive_box node_box git_box python_box' 'c_sharp xamarin . .';
     -ms-grid-columns: 1fr 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
