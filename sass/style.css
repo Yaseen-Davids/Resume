@@ -393,7 +393,7 @@
 }
 
 .exp_section .exp_box_peach .exp_img_peach img {
-  margin-left: 50px;
+  margin-left: 0px;
   height: 55px;
   width: 200px;
 }
@@ -1961,7 +1961,7 @@
     grid-area: exp_img_peach;
   }
   .exp_section .exp_box_peach .exp_img_peach img {
-    margin-left: 0px;
+    margin-left: 50px;
   }
   .exp_section .exp_box_1 {
     margin-top: 40px;
