@@ -300,7 +300,7 @@ $textColor:#393d47;
         display: grid;
         grid-template-areas: 'html_box css_box sass_box js_box'
         'responsive_box node_box git_box python_box'
-        'c_sharp xamarin . .'
+        'c_sharp xamarin react typescript'
         ;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-gap: 20px;
@@ -376,9 +376,13 @@ $textColor:#393d47;
         .c_sharp{
             grid-area: c_sharp;
         }
-        // xamarin BOX
-         .xamarin{
+        // XAMARIN BOX
+        .xamarin{
             grid-area: xamarin;
+        }
+        // REACT BOX
+        .react{
+            grid-area: react;
         }
     }
 }
