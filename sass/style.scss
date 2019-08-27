@@ -298,10 +298,6 @@ $textColor:#393d47;
     .skills_boxes{
         margin-top: 80px;
         display: grid;
-        grid-template-areas: 'html_box css_box sass_box js_box'
-        'responsive_box node_box git_box python_box'
-        'c_sharp xamarin react typescript'
-        ;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-gap: 20px;
 
@@ -338,51 +334,6 @@ $textColor:#393d47;
                 font-size: 1em;
                 text-align: center;
             }
-        }
-
-        // HTML BOX
-        .html_box{
-            grid-area: html_box;
-        }
-        // CSS BOX
-        .css_box{
-            grid-area: css_box;
-        }
-        // SASS BOX
-        .sass_box{
-            grid-area: sass_box;
-        }
-        // JAVASCRIPT BOX
-        .js_box{
-            grid-area: js_box;
-        }
-        // RESPONSIVE BOX
-        .responsive_box{
-            grid-area: responsive_box;
-        }
-        // NODE BOX
-        .node_box{
-            grid-area: node_box;
-        }
-        // GIT BOX
-        .git_box{
-            grid-area: git_box;
-        }
-        // PYTHON BOX
-        .python_box{
-            grid-area: python_box;
-        }
-        // C-SHARP BOX
-        .c_sharp{
-            grid-area: c_sharp;
-        }
-        // XAMARIN BOX
-        .xamarin{
-            grid-area: xamarin;
-        }
-        // REACT BOX
-        .react{
-            grid-area: react;
         }
     }
 }
