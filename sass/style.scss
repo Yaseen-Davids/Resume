@@ -446,11 +446,6 @@ $textColor:#393d47;
     .project_main{
         margin-top: 50px;
         display: grid;
-        grid-template-areas: 
-        'project_box6 project_box5'
-        'project_box1 project_box2'
-        'project_box3 project_box4'
-        ;
         grid-template-columns: 1fr 1fr;
         grid-gap: 30px;
         height: 100%;
@@ -467,14 +462,12 @@ $textColor:#393d47;
             border-radius: 6px;
             box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
             transition: all 200ms ease;
-
             &:hover{
                 box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
                 .over-text{
                     top: 0%;
                 }
             }
-
             .over-text{
                 position: absolute;
                 background: rgba(0, 0, 0, 0.696);
@@ -482,13 +475,11 @@ $textColor:#393d47;
                 width: 100%;
                 top: -100%;
                 transition: all 1s;
-
                 .text_head{
                     font-size: 1.2em;
                     letter-spacing: 0.8px;
                     color: white;
                 }
-
                 p{
                     color: #efefef;
                     line-height: 30px;
@@ -496,33 +487,12 @@ $textColor:#393d47;
                     text-align: center;
                 }
             }
-
-            img{
-                height: 100%;
-                width: 100%;
+            .project_img{
+                img{
+                    height: 100%;
+                    width: 100%;
+                }
             }
-        }
-        .project_box6{
-            grid-area: project_box6;
-        }
-        .project_box5{
-            grid-area: project_box5;
-        }
-        // PROJECT BOX 1
-        .project_box1{
-            grid-area: project_box1;
-        }
-        // PROJECT BOX 2
-        .project_box2{
-            grid-area: project_box2;
-        }
-        // PROJECT BOX 3
-        .project_box3{
-            grid-area: project_box3;
-        }
-        // PROJECT BOX 4
-        .project_box4{
-            grid-area: project_box4;
         }
     }
 }

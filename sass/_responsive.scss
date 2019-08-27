@@ -335,40 +335,27 @@ and (max-width:900px){
             // border: $borderSettings;
             margin-top: 20px;
             display: grid;
-            grid-template-areas:
-            'project_box6'
-            'project_box5'
-            'project_box1'
-            'project_box2'
-            'project_box3'
-            'project_box4'
-            ;
             grid-template-columns: 1fr;
             grid-gap: 10px;
             height: 100%;
-
             .proj_box{
                 border-radius: 6px;
                 height: 250px;
-
                 .over-text{
                     position: absolute;
                     background: rgba(0, 0, 0, 0.696);
                     height: 100%;
                     width: 100%;
                     top: -100%;
-
                     .text_head{
                         font-size: 1.2em;
                         letter-spacing: 0.8px;
                     }
-
                     p{
                         line-height: 30px;
                         margin-top: 40px;
                     }
                 }
-
                 img{
                     height: 250px;
                     width: 100%;
@@ -935,19 +922,12 @@ and (max-width: 900px){
             // border: $borderSettings;
             margin-top: 20px;
             display: grid;
-            grid-template-areas: 
-            'project_box6 project_box5'
-            'project_box1 project_box2'
-            'project_box3 project_box4'
-            ;
             grid-template-columns: 1fr 1fr;
             grid-gap: 10px;
             height: 100%;
-
             .proj_box{
                 border-radius: 6px;
                 height: 250px;
-
                 img{
                     height: 250px;
                     width: 100%;
@@ -1267,11 +1247,6 @@ and (max-width: 1279px){
             // border: $borderSettings;
             margin-top: 20px;
             display: grid;
-            grid-template-areas: 
-            'project_box6 project_box5'
-            'project_box1 project_box2'
-            'project_box3 project_box4'
-            ;
             grid-template-columns: 1fr 1fr;
             grid-gap: 10px;
             height: 100%;
@@ -1279,25 +1254,21 @@ and (max-width: 1279px){
             .proj_box{
                 border-radius: 6px;
                 height: 250px;
-
                 .over-text{
                     position: absolute;
                     background: rgba(0, 0, 0, 0.696);
                     height: 100%;
                     width: 100%;
                     top: -100%;
-
                     .text_head{
                         font-size: 1.2em;
                         letter-spacing: 0.8px;
                     }
-
                     p{
                         line-height: 30px;
                         margin-top: 40px;
                     }
                 }
-
                 img{
                     height: 250px;
                     width: 100%;
