@@ -42,7 +42,7 @@ $textColor:#393d47;
 @mixin expBoxImg {
     img{
         margin-left: 50px;
-        height: 60px;
+        height: 30px;
         width: 140px;
     }
 }
@@ -50,13 +50,12 @@ $textColor:#393d47;
 @mixin expBoxText{
     color: $textColor;
     p{
-        margin-top: 10px;
         margin-left: 20px;
         font-size: 1em;
+        line-height: 2;
     }
     .job_title{
         color: #45bafc;
-        // font-weight: lighter;
     }
 }
 @mixin educBoxContent {
@@ -296,7 +295,7 @@ $textColor:#393d47;
 
     // SKILLS SECTION BOXES
     .skills_boxes{
-        margin-top: 80px;
+        margin-top: 40px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-gap: 20px;
@@ -350,105 +349,17 @@ $textColor:#393d47;
         @include sectionHeader();
     }
 
-    // EXPERIENCE BOX - PEACH PAYMENTS
-    .exp_box_peach{
-        margin-top: 40px;
+    .exp_box_main {
+        margin-top: 20px;
         height: 100%;
         display: grid;
-        grid-template-areas: 'exp_img_peach exp_text_peach'
-        ;
-        grid-template-columns: 30% 1fr;
-        grid-gap: 20px;
+        grid-template-columns: 25% 1fr;
+        grid-gap: 10px;
         border-bottom: 1px solid #e6e6e6;
-
-        // IMG 1
-        .exp_img_peach{
-            grid-area: exp_img_peach;
-            img{
-                margin-left: 50px;
-                height: 55px;
-                width: 200px;
-            }
-        }
-    
-        // TEXT 1
-        .exp_text_peach{
-            grid-area: exp_text_peach;
-            @include expBoxText();
-        }
-    }
-
-    // EXPERIENCE BOX 1
-    .exp_box_1{
-        margin-top: 40px;
-        height: 150px;
-        display: grid;
-        grid-template-areas: 'exp_img1 exp_text1'
-        ;
-        grid-template-columns: 30% 1fr;
-        grid-gap: 20px;
-        border-bottom: 1px solid #e6e6e6;
-
-        // IMG 1
-        .exp_img1{
-            grid-area: exp_img1;
+        .exp_box_img {
             @include expBoxImg();
         }
-    
-        // TEXT 1
-        .exp_text1{
-            grid-area: exp_text1;
-            @include expBoxText();
-        }
-    }    
-
-    // EXPERIENCE BOX 2
-    .exp_box_2{
-        margin-top: 40px;
-        height: 200px;
-        display: grid;
-        grid-template-areas: 'exp_img2 exp_text2'
-        ;
-        grid-template-columns: 30% 1fr;
-        grid-gap: 20px;
-        border-bottom: 1px solid #e6e6e6;
-
-        // IMG 2
-        .exp_img2{
-            grid-area: exp_img2;
-            @include expBoxImg();
-        }
-    
-        // TEXT 2
-        .exp_text2{
-            grid-area: exp_text2;
-            @include expBoxText();
-        }
-    }
-
-    // EXPERIENCE BOX 3
-    .exp_box_3{
-        margin-top: 40px;
-        height: 150px;
-        display: grid;
-        grid-template-areas: 'exp_img3 exp_text3'
-        ;
-        grid-template-columns: 30% 1fr;
-        grid-gap: 20px;
-        border-bottom: 1px solid #e6e6e6;
-
-        // IMG 3
-        .exp_img3{
-            grid-area: exp_img3;
-            img{
-                height: 100px;
-                width: 100%;
-            }
-        }
-    
-        // TEXT 3
-        .exp_text3{
-            grid-area: exp_text3;
+        .exp_box_text {
             @include expBoxText();
         }
     }
