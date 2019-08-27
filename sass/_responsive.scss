@@ -209,12 +209,6 @@ and (max-width:900px){
         .skills_boxes{
             margin-top: 20px;
             display: grid;
-            grid-template-areas: 'html_box css_box'
-            'sass_box js_box'
-            'responsive_box node_box'
-            'git_box python_box'
-            'c_sharp xamarin'
-            ;
             grid-template-columns: 1fr 1fr;
             grid-gap: 20px;
 
@@ -1147,10 +1141,6 @@ and (max-width: 1279px){
         .skills_boxes{
             margin-top: 20px;
             display: grid;
-            grid-template-areas: 'html_box css_box sass_box js_box'
-            'responsive_box node_box git_box python_box'
-            'c_sharp xamarin . .'
-            ;
             grid-template-columns: 1fr 1fr 1fr 1fr;
             grid-gap: 20px;
 
@@ -1561,10 +1551,6 @@ and (max-width: 1600px){
         .skills_boxes{
             margin-top: 20px;
             display: grid;
-            grid-template-areas: 'html_box css_box sass_box js_box'
-            'responsive_box node_box git_box python_box'
-            'c_sharp xamarin . .'
-            ;
             grid-template-columns: 1fr 1fr 1fr 1fr;
             grid-gap: 20px;
 
