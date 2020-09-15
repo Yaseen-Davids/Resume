@@ -546,6 +546,10 @@
   padding-top: 20px;
 }
 
+.projects_section .project_main .proj_box .over-text a {
+  text-decoration: none;
+}
+
 .projects_section .project_main .proj_box .over-text p {
   color: #333;
   font-size: 16px;

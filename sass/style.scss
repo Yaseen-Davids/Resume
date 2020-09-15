@@ -479,6 +479,9 @@ $textColor: #393d47;
       .over-text {
         padding: 10px;
         padding-top: 20px;
+        a {
+          text-decoration: none;
+        }
         p {
           color: #333;
           font-size: 16px;
