@@ -3,26 +3,26 @@
 }
 
 @font-face {
-  font-family: 'Nunito Sans';
+  font-family: "Nunito Sans";
   src: url("../fonts/Nunito-Regular.ttf");
 }
 
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   src: url("../fonts/Poppins regular.ttf");
 }
 
 .grid-container {
   display: -ms-grid;
   display: grid;
-      grid-template-areas: 'home-section' 'skills_section' 'exp_section' 'educ_section' 'projects_section' 'about_sect' 'footer_main';
+      grid-template-areas: "home-section" "skills_section" "exp_section" "educ_section" "projects_section" "about_sect" "footer_main";
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 .title_text {
-  color: #57EEA1;
+  color: #57eea1;
 }
 
 .margin-wrapper {
@@ -35,8 +35,8 @@
   -ms-grid-column: 1;
   grid-area: home-section;
   height: 550px;
-  background: -webkit-gradient(linear, left top, right bottom, from(rgba(41, 44, 51, 0.6)), to(#393d47ad));
-  background: linear-gradient(to bottom right, rgba(41, 44, 51, 0.6), #393d47ad);
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(41, 44, 51, 0.767)), to(#393d47));
+  background: linear-gradient(to bottom right, rgba(41, 44, 51, 0.767), #393d47);
   position: relative;
   overflow: hidden;
 }
@@ -44,7 +44,7 @@
 .home-section img {
   z-index: -10;
   position: absolute;
-  height: 550px;
+  height: 850px;
   width: 100%;
   -webkit-animation-name: zoomIn;
           animation-name: zoomIn;
@@ -107,8 +107,8 @@
 }
 
 .home-section .navbar .navbar_logo h3 {
-  font-family: 'Nunito Sans', sans-serif;
-  color: #D2D5DD;
+  font-family: "Nunito Sans", sans-serif;
+  color: #d2d5dd;
   font-size: 1.3em;
   letter-spacing: 1px;
   cursor: pointer;
@@ -136,9 +136,9 @@
 }
 
 .home-section .navbar .navbar_links a {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.1em;
-  color: #B9C1D0;
+  color: #b9c1d0;
   text-decoration: none;
   margin-left: 20px;
   -webkit-transition: all 0.3s;
@@ -146,11 +146,11 @@
 }
 
 .home-section .navbar .navbar_links a:hover {
-  color: #E8EBE4;
+  color: #e8ebe4;
 }
 
 .home-section .navbar .navbar_links .position {
-  color: #57EEA1;
+  color: #57eea1;
 }
 
 .home-section .home-section-title {
@@ -174,7 +174,7 @@
 .home-section .home-section-title p {
   margin-top: 30px;
   text-align: center;
-  color: #B9C1D0;
+  color: #b9c1d0;
   font-size: 1.2em;
 }
 
@@ -184,7 +184,7 @@
   margin-top: 40px;
   border: none;
   outline: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.1em;
   border: 1px solid #d3c7c7;
   background: transparent;
@@ -213,7 +213,7 @@
           transform: translate(-50%, 0%);
   text-align: center;
   font-size: 4em;
-  color: #B9C1D0;
+  color: #b9c1d0;
   -webkit-animation: arrowBounce 1s infinite;
           animation: arrowBounce 1s infinite;
   -webkit-transition: all 0.2s;
@@ -249,11 +249,11 @@
   height: 100%;
   margin-top: 30px;
   margin-bottom: 30px;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 .skills_section .skills_header {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   border: 1px solid transparent;
 }
 
@@ -264,7 +264,17 @@
 }
 
 .skills_section .skills_header .underline_sect {
-  border-bottom: 4px solid #57EEA1;
+  border-bottom: 4px solid #57eea1;
+}
+
+.skills_section .additional_skills {
+  margin-top: 20px;
+}
+
+.skills_section .additional_skills h2 {
+  text-align: center;
+  color: #393d47;
+  font-size: 1.5em;
 }
 
 .skills_section .skills_description {
@@ -292,7 +302,6 @@
   position: relative;
   background: #fff;
   border: 1px solid #dbdbdb;
-  background: #fff;
   border-radius: 6px;
   height: 200px;
   -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
@@ -333,11 +342,11 @@
   grid-area: exp_section;
   margin-top: 20px;
   height: 100%;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .exp_section .exp_header {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   border: 1px solid transparent;
 }
 
@@ -348,7 +357,7 @@
 }
 
 .exp_section .exp_header .underline_sect {
-  border-bottom: 4px solid #57EEA1;
+  border-bottom: 4px solid #57eea1;
 }
 
 .exp_section .exp_box_main {
@@ -379,7 +388,11 @@
 }
 
 .exp_section .exp_box_main .exp_box_text .job_title {
-  color: #45bafc;
+  color: #296e96;
+}
+
+.exp_section .exp_box_main .exp_box_text .exp_box_section {
+  margin-top: 20px;
 }
 
 .exp_section .exp_title {
@@ -396,7 +409,7 @@
 }
 
 .educ_section .educ_header {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   border: 1px solid transparent;
 }
 
@@ -407,19 +420,19 @@
 }
 
 .educ_section .educ_header .underline_sect {
-  border-bottom: 4px solid #57EEA1;
+  border-bottom: 4px solid #57eea1;
 }
 
 .educ_section .educ_main {
   margin-top: 30px;
   display: -ms-grid;
   display: grid;
-      grid-template-areas: 'educ_box1' 'educ_box2';
+      grid-template-areas: "educ_box1" "educ_box2";
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
   grid-gap: 20px;
   height: 520px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #393d47;
   margin-left: 50px;
   margin-right: 50px;
@@ -471,12 +484,12 @@
   grid-area: projects_section;
   margin-top: 30px;
   height: 100%;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   border-bottom: 1px solid #e6e6e6;
 }
 
 .projects_section .project_header {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   border: 1px solid transparent;
 }
 
@@ -487,7 +500,7 @@
 }
 
 .projects_section .project_header .underline_sect {
-  border-bottom: 4px solid #57EEA1;
+  border-bottom: 4px solid #57eea1;
 }
 
 .projects_section .project_description {
@@ -504,101 +517,52 @@
   margin-top: 50px;
   display: -ms-grid;
   display: grid;
-      grid-template-areas: 'project_box6 project_box5' 'project_box1 project_box2' 'project_box3 project_box4';
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
   grid-gap: 30px;
   height: 100%;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .projects_section .project_main .proj_box {
-  cursor: pointer;
-  overflow: hidden;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  position: relative;
-  background: #fff;
-  border: 1px solid #dbdbdb;
-  background: #fff;
+  padding: 10px;
+  background: #fefefe;
   border-radius: 6px;
-  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
-  -webkit-transition: all 200ms ease;
-  transition: all 200ms ease;
 }
 
-.projects_section .project_main .proj_box:hover {
-  -webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
-}
-
-.projects_section .project_main .proj_box:hover .over-text {
-  top: 0%;
-}
-
-.projects_section .project_main .proj_box .over-text {
-  position: absolute;
-  background: rgba(0, 0, 0, 0.696);
-  height: 100%;
-  width: 100%;
-  top: -100%;
-  -webkit-transition: all 1s;
-  transition: all 1s;
-}
-
-.projects_section .project_main .proj_box .over-text .text_head {
-  font-size: 1.2em;
-  letter-spacing: 0.8px;
-  color: white;
-}
-
-.projects_section .project_main .proj_box .over-text p {
-  color: #efefef;
-  line-height: 30px;
-  margin-top: 40px;
+.projects_section .project_main .proj_box .project_img {
+  height: 350px;
   text-align: center;
 }
 
-.projects_section .project_main .proj_box img {
+.projects_section .project_main .proj_box .project_img img {
+  background-size: cover;
   height: 100%;
   width: 100%;
 }
 
-.projects_section .project_main .project_box6 {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  grid-area: project_box6;
+.projects_section .project_main .proj_box .over-text {
+  padding: 10px;
+  padding-top: 20px;
 }
 
-.projects_section .project_main .project_box5 {
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
-  grid-area: project_box5;
+.projects_section .project_main .proj_box .over-text p {
+  color: #333;
+  font-size: 16px;
+  line-height: 26px;
 }
 
-.projects_section .project_main .project_box1 {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  grid-area: project_box1;
+.projects_section .project_main .proj_box .over-text .text_head {
+  color: #296e96;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
-.projects_section .project_main .project_box2 {
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
-  grid-area: project_box2;
-}
-
-.projects_section .project_main .project_box3 {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
-  grid-area: project_box3;
-}
-
-.projects_section .project_main .project_box4 {
-  -ms-grid-row: 3;
-  -ms-grid-column: 2;
-  grid-area: project_box4;
+.projects_section .project_main .proj_box .proj_box_langs img {
+  height: 20px;
+  width: 20px;
+  margin-right: 7px;
 }
 
 .about_sect {
@@ -614,7 +578,7 @@
 .about_sect .about_main {
   display: -ms-grid;
   display: grid;
-      grid-template-areas: 'about_img about_info';
+      grid-template-areas: "about_img about_info";
   -ms-grid-columns: 20% 1fr;
       grid-template-columns: 20% 1fr;
   grid-gap: 10px;
@@ -639,7 +603,7 @@
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   grid-area: about_info;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 .about_sect .about_main .about_info h3 {
@@ -665,7 +629,7 @@
   -ms-grid-column: 1;
   grid-area: footer_main;
   height: 400px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   position: relative;
 }
 
@@ -686,7 +650,7 @@
 }
 
 .footer_main .footer_top .title_text {
-  color: #57EEA1;
+  color: #57eea1;
 }
 
 .footer_main .footer_top h3 {
@@ -801,7 +765,7 @@
   }
   .home-section .navbar .navbar_links .hamburger_menu i {
     font-size: 1.5em;
-    color: #B9C1D0;
+    color: #b9c1d0;
   }
   .home-section .navbar .navbar_links a {
     display: none;
@@ -976,7 +940,7 @@
     margin-top: 30px;
     display: -ms-grid;
     display: grid;
-        grid-template-areas: 'educ_box1' 'educ_box2';
+        grid-template-areas: "educ_box1" "educ_box2";
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     grid-gap: 20px;
@@ -1038,33 +1002,18 @@
     margin-top: 20px;
     display: -ms-grid;
     display: grid;
-        grid-template-areas: 'project_box6' 'project_box5' 'project_box1' 'project_box2' 'project_box3' 'project_box4';
+        grid-template-areas: "project_box6" "project_box5" "project_box1" "project_box2" "project_box3" "project_box4";
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     grid-gap: 10px;
     height: 100%;
   }
-  .projects_section .project_main .proj_box {
-    border-radius: 6px;
-    height: 250px;
+  .projects_section .project_main .proj_box .project_img {
+    height: 200px;
   }
-  .projects_section .project_main .proj_box .over-text {
-    position: absolute;
-    background: rgba(0, 0, 0, 0.696);
+  .projects_section .project_main .proj_box .project_img img {
+    background-size: cover;
     height: 100%;
-    width: 100%;
-    top: -100%;
-  }
-  .projects_section .project_main .proj_box .over-text .text_head {
-    font-size: 1.2em;
-    letter-spacing: 0.8px;
-  }
-  .projects_section .project_main .proj_box .over-text p {
-    line-height: 30px;
-    margin-top: 40px;
-  }
-  .projects_section .project_main .proj_box img {
-    height: 250px;
     width: 100%;
   }
   .about_sect {
@@ -1077,7 +1026,7 @@
   .about_sect .about_main {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: 'about_img' 'about_info';
+        grid-template-areas: "about_img" "about_info";
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     grid-gap: 10px;
@@ -1258,7 +1207,7 @@
     line-height: 2;
   }
   .exp_section .exp_box_main .exp_box_text .job_title {
-    color: #45bafc;
+    color: #296e96;
   }
   .exp_section .exp_title {
     font-size: 1em;
@@ -1470,7 +1419,7 @@
     height: 100%;
   }
   .projects_section .project_header {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     border: 1px solid transparent;
   }
   .projects_section .project_header h2 {
@@ -1479,7 +1428,7 @@
     font-size: 2.2em;
   }
   .projects_section .project_header .underline_sect {
-    border-bottom: 4px solid #57EEA1;
+    border-bottom: 4px solid #57eea1;
   }
   .projects_section .project_description {
     margin-top: 30px;
@@ -1491,7 +1440,6 @@
     margin-top: 20px;
     display: -ms-grid;
     display: grid;
-        grid-template-areas: 'project_box6 project_box5' 'project_box1 project_box2' 'project_box3 project_box4';
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
@@ -1499,7 +1447,7 @@
   }
   .projects_section .project_main .proj_box {
     border-radius: 6px;
-    height: 250px;
+    height: 100%;
   }
   .projects_section .project_main .proj_box img {
     height: 250px;
@@ -1691,7 +1639,7 @@
     margin-top: 30px;
     display: -ms-grid;
     display: grid;
-        grid-template-areas: 'educ_box1' 'educ_box2';
+        grid-template-areas: "educ_box1" "educ_box2";
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     grid-gap: 20px;
@@ -1753,34 +1701,13 @@
     margin-top: 20px;
     display: -ms-grid;
     display: grid;
-        grid-template-areas: 'project_box6 project_box5' 'project_box1 project_box2' 'project_box3 project_box4';
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
     height: 100%;
   }
   .projects_section .project_main .proj_box {
-    border-radius: 6px;
-    height: 250px;
-  }
-  .projects_section .project_main .proj_box .over-text {
-    position: absolute;
-    background: rgba(0, 0, 0, 0.696);
     height: 100%;
-    width: 100%;
-    top: -100%;
-  }
-  .projects_section .project_main .proj_box .over-text .text_head {
-    font-size: 1.2em;
-    letter-spacing: 0.8px;
-  }
-  .projects_section .project_main .proj_box .over-text p {
-    line-height: 30px;
-    margin-top: 40px;
-  }
-  .projects_section .project_main .proj_box img {
-    height: 250px;
-    width: 100%;
   }
   .about_sect {
     -ms-grid-row: 6;
@@ -1792,7 +1719,7 @@
   .about_sect .about_main {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: 'about_img' 'about_info';
+        grid-template-areas: "about_img" "about_info";
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     grid-gap: 10px;
@@ -1974,7 +1901,7 @@
     margin-top: 30px;
   }
   .skills_section .skills_header {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     border: 1px solid transparent;
   }
   .skills_section .skills_header h2 {
@@ -1983,7 +1910,7 @@
     font-size: 2.2em;
   }
   .skills_section .skills_header .underline_sect {
-    border-bottom: 4px solid #57EEA1;
+    border-bottom: 4px solid #57eea1;
   }
   .skills_section .skills_description {
     margin-top: 30px;
