@@ -1,434 +1,515 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>Yaseen Davids | Fullstack Developer</title>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- CSS STYLESHEET -->
-    <link rel="stylesheet" type="text/css" media="screen" href="./sass/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./sass/style.css"
+    />
     <!-- FONT AWESOME -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Nunito|Poppins" rel="stylesheet">
-    <link rel="icon" type="favicon" href="./images/yd-logo.jpg">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito|Poppins"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="favicon" href="./images/yd-logo.jpg" />
+  </head>
 
-<body>
-
+  <body>
     <!-- MAIN CONTAINER -->
     <div class="container">
+      <!-- GRID CONTAINER -->
+      <div class="grid-container">
+        <!-- TOP SECTION OF WEBPAGE -->
+        <div class="home-section">
+          <img src="./images/bg-img.jpg" alt="" />
 
-        <!-- GRID CONTAINER -->
-        <div class="grid-container">
-
-            <!-- TOP SECTION OF WEBPAGE -->
-            <div class="home-section">
-
-                <img src="./images/bg-img.jpg" alt="">
-
-                <!-- NAVBAR -->
-                <nav class="navbar">
-                    <!-- MARGIN WRAPPER -->
-                    <div class="margin-wrapper">
-                        <!-- NAVBAR LOGO -->
-                        <div class="navbar_logo">
-                            <a href="/">
-                                <h3>Yaseen Davids<i class="far fa-keyboard"></i></h3>
-                            </a>
-                        </div>
-                        <!-- NAVBAR LINKS DESKTOP -->
-                        <div class="navbar_links">
-                            <div class="hamburger_menu"><i class="fas fa-bars"></i></div>
-                            <a href="#skills" class="skills_link">Skills</a>
-                            <a href="#experience" class="exp_link">Experience</a>
-                            <a href="#education" class="edu_link">Education</a>
-                            <a href="#projects" class="proj_link">Projects</a>
-                            <a href="#about" class="about_link">About</a>
-                        </div>
-                    </div>
-                </nav>
-
-                <!-- HOME SECTION WITH TITLE AND DESCRIPTION -->
-                <div class="home-section-title">
-                    <!-- TITLE -->
-                    <h1>Full stack <span class="title_text">developer</span></h1>
-                    <!-- DESCRIPTION -->
-                    <p>Hi, my name is <span class="title_text">Yaseen Davids</span>.<br>I design and develop elegant,
-                        performant and accessible products,<br>based in Cape Town, <span class="title_text">South
-                            Africa</span></p>
-                    <!-- BUTTON -->
-                    <center><a
-                            href="https://docs.google.com/document/d/19iFI98b4_jTD_LFH5ZUo_n8iquklo7bT42xcDXKMFaM/edit?usp=sharing"
-                            target="__blank"><button class="download_resume"><i class="fas fa-download"></i>Download
-                                Resume</button></a>
-                    </center>
-                </div>
-
-                <!-- DOWN ARROW -->
-                <h4 class="arrow_skills"><i class="fas fa-angle-down"></i></h4>
-            </div>
-
-        </div>
-
-        <!-- MARGIN WRAPPR -->
-        <div class="margin-wrapper">
-
-            <!-- SKILLS SECTION -->
-            <section class="skills_section">
-
-                <!-- SKILLS SECTION HEADER -->
-                <div class="skills_header">
-                    <h2><span class="underline_sect">Skil</span>ls</h2>
-                </div>
-                <!-- SKILLS DESCRIPTION -->
-                <div class="skills_description">
-                    <p>I specialize in Full Stack Web development<br>
-                        as well as having experience in additional programming languages.
-                    </p>
-                </div>
-                <!-- SKILLS BOXES -->
-                <div class="skills_boxes">
-                    <div class="skill_card">
-                        <img src="./images/react.png" alt="Image of react logo">
-                        <p>React</p>
-                    </div>
-                    <div class="skill_card">
-                        <img src="./images/typescript.png" alt="Image of typescript logo">
-                        <p>Typescript</p>
-                    </div>
-                    <!-- JAVASCRIPT BOX -->
-                    <div class="skill_card">
-                        <img src="./images/js.png" alt="Image of javascript logo">
-                        <p>JavaScript/jQuery</p>
-                    </div>
-                    <!-- HTML BOX -->
-                    <div class="skill_card">
-                        <img src="./images/html.png" alt="Image of html logo">
-                        <p>HTML5</p>
-                    </div>
-                    <!-- CSS BOX -->
-                    <div class="skill_card">
-                        <img src="./images/css.png" alt="Image of css logo">
-                        <p>CSS</p>
-                    </div>
-                    <!-- SASS BOX -->
-                    <div class="skill_card">
-                        <img src="./images/sass.png" alt="Image of sass logo">
-                        <p>SASS</p>
-                    </div>
-                    <!-- NODE BOX -->
-                    <div class="skill_card">
-                        <img src="./images/node.png" alt="Image of node.js logo">
-                        <p>Node.js</p>
-                    </div>
-                    <!-- GIT BOX -->
-                    <div class="skill_card">
-                        <img src="./images/git.png" alt="Image of git logo">
-                        <p>Git</p>
-                    </div>
-                    <!-- RESPONSIVE BOX -->
-                    <div class="skill_card">
-                        <img src="./images/smartphone.png" alt="Image of a phone logo">
-                        <p>Responsive Design</p>
-                    </div>
-                </div>
-                <div class="skills_header additional_skills">
-                    <h2><span class="underline_sect">Addi</span>tional Skills</h2>
-                </div>
-                <div class="skills_boxes">
-                    <!-- REACT NATIVE BOX -->
-                    <div class="skill_card">
-                        <img src="./images/react.png" alt="Image of react logo">
-                        <p>React Native</p>
-                    </div>
-                    <!-- PYTHON BOX -->
-                    <div class="skill_card">
-                        <img src="./images/py.png" alt="Image of python logo">
-                        <p>Python</p>
-                    </div>
-                    <!-- ANDROID BOX -->
-                    <div class="skill_card">
-                        <img src="./images/android.png" alt="Image of android logo">
-                        <p>Android</p>
-                    </div>
-                    <!-- C# BOX -->
-                    <div class="skill_card">
-                        <img src="./images/hashtag.png" alt="Image of c# logo">
-                        <p>C# (C-Sharp)</p>
-                    </div>
-                    <!-- XAMARIN BOX -->
-                    <div class="skill_card">
-                        <img src="./images/xamarin.png" alt="Image of xamarin logo">
-                        <p>Xamarin</p>
-                    </div>
-                </div>
-
-            </section>
-
-            <!-- EXPERIENCE SECTION -->
-            <section class="exp_section">
-                <!-- EXPERIENCE HEADER -->
-                <div class="exp_header">
-                    <h2><span class="underline_sect">Work</span> Experience</h2>
-                </div>
-                <br>
-                <!-- EXPERIENCE ITEM -->
-                <div class="exp_box_main">
-                    <div class="exp_box_img">
-                        <a href="http://www.vulcanlabs.com/">
-                            <img src="./images/vulcan_labs.png">
-                        </a>
-                    </div>
-                    <div class="exp_box_text">
-                        <h4 class="exp_title">Vulcan Labs</h4>
-                        <div class="exp_box_section exp_box_section_first">
-                            <h4 class="job_title">Junior Software Developer</h4>
-                            <p>While working at Vulcan Labs, I have worked on maintaining and developing new
-                                systems. The main focus of languages used were but not limited to React, Typescript, SQL
-                                and Node.js.</p>
-                            <p>The developing of new systems required learning and working with new languages such a
-                                React Native, Android and C#.</p>
-                            <p><b>Year</b>: 2019 Oct - Present</p>
-                            <p><b>Reference</b>: Dayne Olivier - Available upon request</p>
-                        </div>
-                        <div class="exp_box_section">
-                            <h4 class="job_title">Junior Software Developer Intern</h4>
-                            <p>Built and worked on projects while using React, Typescript, SQL and Node.js.</p>
-                            <p><b>Year</b>: 2019 Mar - 2019 Oct</p>
-                            <p><b>Reference</b>: Dayne Olivier - Available upon request</p>
-                        </div>
-                        <br>
-                    </div>
-                </div>
-                <!-- EXPERIENCE ITEM -->
-                <div class="exp_box_main">
-                    <div class="exp_box_img">
-                        <a href="https://www.peachpayments.com/">
-                            <img src="./images/Peach Payments Horizontal.png">
-                        </a>
-                    </div>
-                    <div class="exp_box_text">
-                        <h4 class="exp_title">Peach Payments - <span class="job_title">Intern Operation
-                                Specialist</span></h4>
-                        <p>As an operations specialist I was part of a team that manages the day to day operations of
-                            Peach Payments.<br>
-                            Other responsibilities included support merchants with technical integration of API's,
-                            building mobile apps and websites.</p>
-                        <p>I took on the responsibility of building apps and websites for in house testing.</p>
-                        <p><b>Year</b>: 2018-2019</p>
-                        <p><b>Reference</b>: Chris Rutte - Available upon request</p>
-                        <br>
-                    </div>
-                </div>
-            </section>
-
-            <!-- EDUCATION SECTION -->
-            <section class="educ_section">
-
-                <!-- EDUCATION HEADER -->
-                <div class="educ_header">
-                    <h2><span class="underline_sect">Educ</span>ation</h2>
-                </div>
-
-                <!-- EDUCATION MAIN BOX -->
-                <div class="educ_main">
-                    <!-- EDUCATION BOX 1 -->
-                    <div class="educ_box1">
-                        <!-- EDUCATION BOX CONTENT -->
-                        <div class="educ_box1_content">
-                            <h3>LifeChoices Academy</h3>
-                            <p><b>Year</b>: 2018 (March - August)</p>
-                            <p><b>Course</b>: Full Stack Web Development</p>
-                            <p><b>Subjects</b>: Programming, professional development, design thinking</p>
-                            <p>The Life Choices Academy is a full-time program which empowers youth from the Cape Flats
-                                with life, practical and professional development skills. We did intensive study of the
-                                following web development languages: HTML, CSS, SASS, jQuery, JavaScript, Node and
-                                MongoDB. As part of our professional development, we had the opportunity to use online
-                                resources such as MOOCs, were taught Design Thinking and made use of resources for
-                                personal reflection, such as DISC profiles and SMART goal setting. Taking part in this
-                                course has provided me professional and life skills which has lead me to find my
-                                passion.</p>
-                        </div>
-                    </div>
-                    <!-- EDUCATION BOX 2 -->
-                    <div class="educ_box2">
-                        <!-- EDUCATION BOX 2 CONTENT -->
-                        <div class="educ_box2_content">
-                            <h3>Harold Cressy High School</h3>
-                            <p><b>Year</b>: 2013-2017</p>
-                            <p><b>Qualification</b>: NSC - Bachelors</p>
-                            <p><b>Subjects</b>: Physical Sciences, Life Science, Mathematics, Geography</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- PROJECTS SECTION -->
-            <section class="projects_section">
-
-                <!-- PROJECTS SECTION HEADER -->
-                <div class="project_header">
-                    <h2><span class="underline_sect">Late</span>sts Projects</h2>
-                </div>
-                <!-- PROJECTS DESCRIPTION -->
-                <div class="project_description">
-                    <p>Here are a few examples of my work.</p>
-                </div>
-                <!-- PROJECTS MAIN -->
-                <div class="project_main">
-                    <!-- PROJECT -->
-                    <div class="proj_box">
-                        <div class="project_img">
-                            <img src="./images/Mouse.png">
-                        </div>
-                        <div class="over-text">
-                            <p class="text_head">Remote Mouse</p>
-                            <div class="proj_box_langs">
-                                <img src="./images/android.png" alt="Image of android logo">
-                                <img src="./images/py.png" alt="Image of python logo">
-                            </div>
-                            <p>A remote mouse app for android to control your pc's mouse and additional commands.</p>
-                            <p>Built with Android using sockets and python as the server.</p>
-                        </div>
-                    </div>
-                    <!-- PROJECT -->
-                    <div class="proj_box">
-                        <div class="project_img">
-                            <a href="https://github.com/Yaseen-Davids/media-links" target="__blank">
-                                <img src="./images/medialinks.png">
-                            </a>
-                        </div>
-                        <div class="over-text">
-                            <a href="https://github.com/Yaseen-Davids/media-links" target="__blank">
-                                <p class="text_head">MediaLinks</p>
-                            </a>
-                            <div class="proj_box_langs">
-                                <img src="./images/react.png" alt="Image of react logo">
-                                <img src="./images/node.png" alt="Image of node.js logo">
-                                <img src="./images/sql.png" alt="Image of sql logo">
-                                <img src="./images/css.png" alt="Image of css logo">
-                            </div>
-                            <p>Store and play youtube media.</p>
-                            <p>An app built with React, Express.js and Postgres.</p>
-                        </div>
-                    </div>
-                    <!-- PROJECT -->
-                    <div class="proj_box">
-                        <div class="project_img">
-                            <img src="./images/peach-sdk.png">
-                        </div>
-                        <div class="over-text">
-                            <p class="text_head">Peach Payments SDK</p>
-                            <div class="proj_box_langs">
-                                <img src="./images/xamarin.png" alt="Image of xamarin logo">
-                            </div>
-                            <p>A simple app to simulate real payments using peach payments integration.</p>
-                        </div>
-                    </div>
-                    <!-- PROJECT -->
-                    <div class="proj_box">
-                        <div class="project_img">
-                            <a href="https://github.com/Yaseen-Davids/pp-team-website" target="__blank">
-                                <img src="./images/peach-website.PNG">
-                            </a>
-                        </div>
-                        <div class="over-text">
-                            <a href="https://github.com/Yaseen-Davids/pp-team-website" target="__blank">
-                                <p class="text_head">Peach Payments Interim</p>
-                            </a>
-                            <div class="proj_box_langs">
-                                <img src="./images/js.png" alt="Image of js logo">
-                                <img src="./images/node.png" alt="Image of node logo">
-                                <img src="./images/html.png" alt="Image of html logo">
-                                <img src="./images/sass.png" alt="Image of sass logo">
-                            </div>
-                            <p>A admin panel used by the Peach Payment team.</p>
-                        </div>
-                    </div>
-                    <!-- PROJECT -->
-                    <div class="proj_box">
-                        <div class="project_img">
-                            <a href="https://github.com/Yaseen-Davids/Code4CT" target="__blank">
-                                <img src="./images/code4ct.png">
-                            </a>
-                        </div>
-                        <div class="over-text">
-                            <a href="https://github.com/Yaseen-Davids/Code4CT" target="__blank">
-                                <p class="text_head">Code4CT</p>
-                            </a>
-                            <div class="proj_box_langs">
-                                <img src="./images/html.png" alt="Image of html logo">
-                                <img src="./images/js.png" alt="Image of js logo">
-                                <img src="./images/sass.png" alt="Image of sass logo">
-                            </div>
-                            <p>A website created for the Code4CT organistion.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-
-        <!-- ABOUT SECTION -->
-        <section class="about_sect">
+          <!-- NAVBAR -->
+          <nav class="navbar">
+            <!-- MARGIN WRAPPER -->
             <div class="margin-wrapper">
-                <!-- ABOUT MAIN SECTION -->
-                <div class="about_main">
-                    <!-- ABOUT IMAGE -->
-                    <div class="about_img">
-                        <img src="./images/my-face.jpg">
-                    </div>
-                    <!-- ABOUT INFO -->
-                    <div class="about_info">
-                        <h3>About Me <i class="fas fa-portrait"></i></h3>
-                        <p>A very hardworking and ambitious person with a passion for working with computers and people.
-                            Developed software while completing a Full Stack Web Development Course.
-                            A very curious person with an analytical mind, looking for the why behind everything and
-                            always looking for the efficient way to solve a problem. Eager to be challenged in order to
-                            grow and improve my skills.</p>
-                        <h3 class="about_contact">Contact Details <i class="fas fa-envelope"></i></h3>
-                        <p>yaseendavids477@gmail.com
-                            <br>061 647 8942
-                            <br>Cape Town, South Africa</p>
-                    </div>
-                </div>
+              <!-- NAVBAR LOGO -->
+              <div class="navbar_logo">
+                <a href="/">
+                  <h3>Yaseen Davids 12345<i class="far fa-keyboard"></i></h3>
+                </a>
+              </div>
+              <!-- NAVBAR LINKS DESKTOP -->
+              <div class="navbar_links">
+                <div class="hamburger_menu"><i class="fas fa-bars"></i></div>
+                <a href="#skills" class="skills_link">Skills</a>
+                <a href="#experience" class="exp_link">Experience</a>
+                <a href="#education" class="edu_link">Education</a>
+                <a href="#projects" class="proj_link">Projects</a>
+                <a href="#about" class="about_link">About</a>
+              </div>
             </div>
+          </nav>
+
+          <!-- HOME SECTION WITH TITLE AND DESCRIPTION -->
+          <div class="home-section-title">
+            <!-- TITLE -->
+            <h1>Full stack <span class="title_text">developer</span></h1>
+            <!-- DESCRIPTION -->
+            <p>
+              Hi, my name is
+              <span class="title_text">Yaseen Davids</span>.<br />I design and
+              develop elegant, performant and accessible products,<br />based in
+              Cape Town, <span class="title_text">South Africa</span>
+            </p>
+            <!-- BUTTON -->
+            <center>
+              <a
+                href="https://docs.google.com/document/d/19iFI98b4_jTD_LFH5ZUo_n8iquklo7bT42xcDXKMFaM/edit?usp=sharing"
+                target="__blank"
+                ><button class="download_resume">
+                  <i class="fas fa-download"></i>Download Resume
+                </button></a
+              >
+            </center>
+          </div>
+
+          <!-- DOWN ARROW -->
+          <h4 class="arrow_skills"><i class="fas fa-angle-down"></i></h4>
+        </div>
+      </div>
+
+      <!-- MARGIN WRAPPR -->
+      <div class="margin-wrapper">
+        <!-- SKILLS SECTION -->
+        <section class="skills_section">
+          <!-- SKILLS SECTION HEADER -->
+          <div class="skills_header">
+            <h2><span class="underline_sect">Skil</span>ls</h2>
+          </div>
+          <!-- SKILLS DESCRIPTION -->
+          <div class="skills_description">
+            <p>
+              I specialize in Full Stack Web development<br />
+              as well as having experience in additional programming languages.
+            </p>
+          </div>
+          <!-- SKILLS BOXES -->
+          <div class="skills_boxes">
+            <div class="skill_card">
+              <img src="./images/react.png" alt="Image of react logo" />
+              <p>React</p>
+            </div>
+            <div class="skill_card">
+              <img
+                src="./images/typescript.png"
+                alt="Image of typescript logo"
+              />
+              <p>Typescript</p>
+            </div>
+            <!-- JAVASCRIPT BOX -->
+            <div class="skill_card">
+              <img src="./images/js.png" alt="Image of javascript logo" />
+              <p>JavaScript/jQuery</p>
+            </div>
+            <!-- HTML BOX -->
+            <div class="skill_card">
+              <img src="./images/html.png" alt="Image of html logo" />
+              <p>HTML5</p>
+            </div>
+            <!-- CSS BOX -->
+            <div class="skill_card">
+              <img src="./images/css.png" alt="Image of css logo" />
+              <p>CSS</p>
+            </div>
+            <!-- SASS BOX -->
+            <div class="skill_card">
+              <img src="./images/sass.png" alt="Image of sass logo" />
+              <p>SASS</p>
+            </div>
+            <!-- NODE BOX -->
+            <div class="skill_card">
+              <img src="./images/node.png" alt="Image of node.js logo" />
+              <p>Node.js</p>
+            </div>
+            <!-- GIT BOX -->
+            <div class="skill_card">
+              <img src="./images/git.png" alt="Image of git logo" />
+              <p>Git</p>
+            </div>
+            <!-- RESPONSIVE BOX -->
+            <div class="skill_card">
+              <img src="./images/smartphone.png" alt="Image of a phone logo" />
+              <p>Responsive Design</p>
+            </div>
+          </div>
+          <div class="skills_header additional_skills">
+            <h2><span class="underline_sect">Addi</span>tional Skills</h2>
+          </div>
+          <div class="skills_boxes">
+            <!-- REACT NATIVE BOX -->
+            <div class="skill_card">
+              <img src="./images/react.png" alt="Image of react logo" />
+              <p>React Native</p>
+            </div>
+            <!-- PYTHON BOX -->
+            <div class="skill_card">
+              <img src="./images/py.png" alt="Image of python logo" />
+              <p>Python</p>
+            </div>
+            <!-- ANDROID BOX -->
+            <div class="skill_card">
+              <img src="./images/android.png" alt="Image of android logo" />
+              <p>Android</p>
+            </div>
+            <!-- C# BOX -->
+            <div class="skill_card">
+              <img src="./images/hashtag.png" alt="Image of c# logo" />
+              <p>C# (C-Sharp)</p>
+            </div>
+            <!-- XAMARIN BOX -->
+            <div class="skill_card">
+              <img src="./images/xamarin.png" alt="Image of xamarin logo" />
+              <p>Xamarin</p>
+            </div>
+          </div>
         </section>
 
-        <!-- FOOTER -->
-        <footer class="footer_main">
-            <!-- FOOTER TOP SECTION -->
-            <div class="footer_top">
-                <!-- FOOTER TOP HEADER -->
-                <div class="footer_top_header">
-                    <h2>Yaseen <span class="title_text">Davids</span></h2>
-                    <h3>Developer, designer, car enthusiast,<br> gamer, problem solver</h3>
-                </div>
-                <!-- FOOTER SOCIAL LINKS -->
-                <div class="footer_social">
-                    <a href="https://www.linkedin.com/in/yaseen-davids-806644169/"><i
-                            class="fab fa-linkedin-in"></i></a>
-                    <a href="https://github.com/Yaseen-Davids/"><i class="fab fa-github-alt"></i></a>
-                    <a href="https://stackoverflow.com/users/9589855/yaseen-davids?tab=profile"><i
-                            class="fab fa-stack-overflow"></i></a>
-                    <a href="https://codepen.io/Yaseen-Davids/"><i class="fab fa-codepen"></i></a>
-                    <a href="https://glitch.com/@Yaseen-Davids"><i class="fas fa-fish"></i></a>
-                </div>
+        <!-- EXPERIENCE SECTION -->
+        <section class="exp_section">
+          <!-- EXPERIENCE HEADER -->
+          <div class="exp_header">
+            <h2><span class="underline_sect">Work</span> Experience</h2>
+          </div>
+          <br />
+          <!-- EXPERIENCE ITEM -->
+          <div class="exp_box_main">
+            <div class="exp_box_img">
+              <a href="http://www.vulcanlabs.com/">
+                <img src="./images/vulcan_labs.png" />
+              </a>
             </div>
-            <!-- FOOTER BOTTOM -->
-            <div class="footer_bottom">
-                <h3>Design by <span class="title_text">Yaseen Davids</span> | <span class="footer_slogan">Show me the
-                        code ©</span></h3>
+            <div class="exp_box_text">
+              <h4 class="exp_title">Vulcan Labs</h4>
+              <div class="exp_box_section exp_box_section_first">
+                <h4 class="job_title">Junior Software Developer</h4>
+                <p>
+                  While working at Vulcan Labs, I have worked on maintaining and
+                  developing new systems. The main focus of languages used were
+                  but not limited to React, Typescript, SQL and Node.js.
+                </p>
+                <p>
+                  The developing of new systems required learning and working
+                  with new languages such a React Native, Android and C#.
+                </p>
+                <p><b>Year</b>: 2019 Oct - Present</p>
+                <p><b>Reference</b>: Dayne Olivier - Available upon request</p>
+              </div>
+              <div class="exp_box_section">
+                <h4 class="job_title">Junior Software Developer Intern</h4>
+                <p>
+                  Built and worked on projects while using React, Typescript,
+                  SQL and Node.js.
+                </p>
+                <p><b>Year</b>: 2019 Mar - 2019 Oct</p>
+                <p><b>Reference</b>: Dayne Olivier - Available upon request</p>
+              </div>
+              <br />
             </div>
-        </footer>
+          </div>
+          <!-- EXPERIENCE ITEM -->
+          <div class="exp_box_main">
+            <div class="exp_box_img">
+              <a href="https://www.peachpayments.com/">
+                <img src="./images/Peach Payments Horizontal.png" />
+              </a>
+            </div>
+            <div class="exp_box_text">
+              <h4 class="exp_title">
+                Peach Payments -
+                <span class="job_title">Intern Operation Specialist</span>
+              </h4>
+              <p>
+                As an operations specialist I was part of a team that manages
+                the day to day operations of Peach Payments.<br />
+                Other responsibilities included support merchants with technical
+                integration of API's, building mobile apps and websites.
+              </p>
+              <p>
+                I took on the responsibility of building apps and websites for
+                in house testing.
+              </p>
+              <p><b>Year</b>: 2018-2019</p>
+              <p><b>Reference</b>: Chris Rutte - Available upon request</p>
+              <br />
+            </div>
+          </div>
+        </section>
 
+        <!-- EDUCATION SECTION -->
+        <section class="educ_section">
+          <!-- EDUCATION HEADER -->
+          <div class="educ_header">
+            <h2><span class="underline_sect">Educ</span>ation</h2>
+          </div>
+
+          <!-- EDUCATION MAIN BOX -->
+          <div class="educ_main">
+            <!-- EDUCATION BOX 1 -->
+            <div class="educ_box1">
+              <!-- EDUCATION BOX CONTENT -->
+              <div class="educ_box1_content">
+                <h3>LifeChoices Academy</h3>
+                <p><b>Year</b>: 2018 (March - August)</p>
+                <p><b>Course</b>: Full Stack Web Development</p>
+                <p>
+                  <b>Subjects</b>: Programming, professional development, design
+                  thinking
+                </p>
+                <p>
+                  The Life Choices Academy is a full-time program which empowers
+                  youth from the Cape Flats with life, practical and
+                  professional development skills. We did intensive study of the
+                  following web development languages: HTML, CSS, SASS, jQuery,
+                  JavaScript, Node and MongoDB. As part of our professional
+                  development, we had the opportunity to use online resources
+                  such as MOOCs, were taught Design Thinking and made use of
+                  resources for personal reflection, such as DISC profiles and
+                  SMART goal setting. Taking part in this course has provided me
+                  professional and life skills which has lead me to find my
+                  passion.
+                </p>
+              </div>
+            </div>
+            <!-- EDUCATION BOX 2 -->
+            <div class="educ_box2">
+              <!-- EDUCATION BOX 2 CONTENT -->
+              <div class="educ_box2_content">
+                <h3>Harold Cressy High School</h3>
+                <p><b>Year</b>: 2013-2017</p>
+                <p><b>Qualification</b>: NSC - Bachelors</p>
+                <p>
+                  <b>Subjects</b>: Physical Sciences, Life Science, Mathematics,
+                  Geography
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section class="projects_section">
+          <!-- PROJECTS SECTION HEADER -->
+          <div class="project_header">
+            <h2><span class="underline_sect">Late</span>sts Projects</h2>
+          </div>
+          <!-- PROJECTS DESCRIPTION -->
+          <div class="project_description">
+            <p>Here are a few examples of my work.</p>
+          </div>
+          <!-- PROJECTS MAIN -->
+          <div class="project_main">
+            <!-- PROJECT -->
+            <div class="proj_box">
+              <div class="project_img">
+                <img src="./images/Mouse.png" />
+              </div>
+              <div class="over-text">
+                <p class="text_head">Remote Mouse</p>
+                <div class="proj_box_langs">
+                  <img src="./images/android.png" alt="Image of android logo" />
+                  <img src="./images/py.png" alt="Image of python logo" />
+                </div>
+                <p>
+                  A remote mouse app for android to control your pc's mouse and
+                  additional commands.
+                </p>
+                <p>
+                  Built with Android using sockets and python as the server.
+                </p>
+              </div>
+            </div>
+            <!-- PROJECT -->
+            <div class="proj_box">
+              <div class="project_img">
+                <a
+                  href="https://github.com/Yaseen-Davids/media-links"
+                  target="__blank"
+                >
+                  <img src="./images/medialinks.png" />
+                </a>
+              </div>
+              <div class="over-text">
+                <a
+                  href="https://github.com/Yaseen-Davids/media-links"
+                  target="__blank"
+                >
+                  <p class="text_head">MediaLinks</p>
+                </a>
+                <div class="proj_box_langs">
+                  <img src="./images/react.png" alt="Image of react logo" />
+                  <img src="./images/node.png" alt="Image of node.js logo" />
+                  <img src="./images/sql.png" alt="Image of sql logo" />
+                  <img src="./images/css.png" alt="Image of css logo" />
+                </div>
+                <p>Store and play youtube media.</p>
+                <p>An app built with React, Express.js and Postgres.</p>
+              </div>
+            </div>
+            <!-- PROJECT -->
+            <div class="proj_box">
+              <div class="project_img">
+                <img src="./images/peach-sdk.png" />
+              </div>
+              <div class="over-text">
+                <p class="text_head">Peach Payments SDK</p>
+                <div class="proj_box_langs">
+                  <img src="./images/xamarin.png" alt="Image of xamarin logo" />
+                </div>
+                <p>
+                  A simple app to simulate real payments using peach payments
+                  integration.
+                </p>
+              </div>
+            </div>
+            <!-- PROJECT -->
+            <div class="proj_box">
+              <div class="project_img">
+                <a
+                  href="https://github.com/Yaseen-Davids/pp-team-website"
+                  target="__blank"
+                >
+                  <img src="./images/peach-website.PNG" />
+                </a>
+              </div>
+              <div class="over-text">
+                <a
+                  href="https://github.com/Yaseen-Davids/pp-team-website"
+                  target="__blank"
+                >
+                  <p class="text_head">Peach Payments Interim</p>
+                </a>
+                <div class="proj_box_langs">
+                  <img src="./images/js.png" alt="Image of js logo" />
+                  <img src="./images/node.png" alt="Image of node logo" />
+                  <img src="./images/html.png" alt="Image of html logo" />
+                  <img src="./images/sass.png" alt="Image of sass logo" />
+                </div>
+                <p>A admin panel used by the Peach Payment team.</p>
+              </div>
+            </div>
+            <!-- PROJECT -->
+            <div class="proj_box">
+              <div class="project_img">
+                <a
+                  href="https://github.com/Yaseen-Davids/Code4CT"
+                  target="__blank"
+                >
+                  <img src="./images/code4ct.png" />
+                </a>
+              </div>
+              <div class="over-text">
+                <a
+                  href="https://github.com/Yaseen-Davids/Code4CT"
+                  target="__blank"
+                >
+                  <p class="text_head">Code4CT</p>
+                </a>
+                <div class="proj_box_langs">
+                  <img src="./images/html.png" alt="Image of html logo" />
+                  <img src="./images/js.png" alt="Image of js logo" />
+                  <img src="./images/sass.png" alt="Image of sass logo" />
+                </div>
+                <p>A website created for the Code4CT organistion.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- ABOUT SECTION -->
+      <section class="about_sect">
+        <div class="margin-wrapper">
+          <!-- ABOUT MAIN SECTION -->
+          <div class="about_main">
+            <!-- ABOUT IMAGE -->
+            <div class="about_img">
+              <img src="./images/my-face.jpg" />
+            </div>
+            <!-- ABOUT INFO -->
+            <div class="about_info">
+              <h3>About Me <i class="fas fa-portrait"></i></h3>
+              <p>
+                A very hardworking and ambitious person with a passion for
+                working with computers and people. Developed software while
+                completing a Full Stack Web Development Course. A very curious
+                person with an analytical mind, looking for the why behind
+                everything and always looking for the efficient way to solve a
+                problem. Eager to be challenged in order to grow and improve my
+                skills.
+              </p>
+              <h3 class="about_contact">
+                Contact Details <i class="fas fa-envelope"></i>
+              </h3>
+              <p>
+                yaseendavids477@gmail.com <br />061 647 8942 <br />Cape Town,
+                South Africa
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer class="footer_main">
+        <!-- FOOTER TOP SECTION -->
+        <div class="footer_top">
+          <!-- FOOTER TOP HEADER -->
+          <div class="footer_top_header">
+            <h2>Yaseen <span class="title_text">Davids</span></h2>
+            <h3>
+              Developer, designer, car enthusiast,<br />
+              gamer, problem solver
+            </h3>
+          </div>
+          <!-- FOOTER SOCIAL LINKS -->
+          <div class="footer_social">
+            <a href="https://www.linkedin.com/in/yaseen-davids-806644169/"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a href="https://github.com/Yaseen-Davids/"
+              ><i class="fab fa-github-alt"></i
+            ></a>
+            <a
+              href="https://stackoverflow.com/users/9589855/yaseen-davids?tab=profile"
+              ><i class="fab fa-stack-overflow"></i
+            ></a>
+            <a href="https://codepen.io/Yaseen-Davids/"
+              ><i class="fab fa-codepen"></i
+            ></a>
+            <a href="https://glitch.com/@Yaseen-Davids"
+              ><i class="fas fa-fish"></i
+            ></a>
+          </div>
+        </div>
+        <!-- FOOTER BOTTOM -->
+        <div class="footer_bottom">
+          <h3>
+            Design by <span class="title_text">Yaseen Davids</span> |
+            <span class="footer_slogan">Show me the code ©</span>
+          </h3>
+        </div>
+      </footer>
     </div>
 
     <!-- JAVASCRIPT && JQUERY -->
     <script src="./js/jquery.min.js"></script>
     <script src="./js/script.js"></script>
-
-</body>
-
+  </body>
 </html>
